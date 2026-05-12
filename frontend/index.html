@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CocosGram</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="CocosGram">
+      <svg width="162" height="32" viewBox="0 0 162 32" aria-hidden="true">
+        <path d="M23 7C15 7 9 12.7 9 19s6 12 14 12" transform="translate(32 0) scale(-1 1)" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+        <text x="28" y="24" fill="currentColor" font-family="Arial, sans-serif" font-size="24" font-weight="900">ocosGram</text>
+      </svg>
+    </a>
+    <div class="topbar-actions" id="topbarActions"></div>
+  </header>
+
+  <main id="app"></main>
+
+  <nav class="bottom-nav hidden" id="bottomNav">
+    <button data-tab="feed">Лента</button>
+    <button data-tab="messages">Сообщения</button>
+    <button data-tab="people">Люди</button>
+    <button data-tab="settings">Настройки</button>
+  </nav>
+
+  <script src="/app.js"></script>
+</body>
+</html>
